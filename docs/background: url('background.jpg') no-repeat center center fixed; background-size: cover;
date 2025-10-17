@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>سایت PPB</title>
+  <style>
+    body {
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Tahoma, Arial, sans-serif;
+      color: #223A5E;
+    }
+    h1 {
+      color: #FF8906;
+      background: rgba(34,58,94,0.85);
+      padding: 18px;
+      border-radius
