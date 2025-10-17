@@ -23,3 +23,100 @@
             font-size: 2.7em;
             letter-spacing: 2px;
         }
+        nav {
+            background: #223A5E;
+            display: flex;
+            justify-content: center;
+            padding: 13px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 22px;
+            font-size: 1.1em;
+            transition: color 0.2s;
+            padding: 6px 14px;
+            border-radius: 8px;
+        }
+        nav a:hover {
+            background: #FF8906;
+            color: #223A5E;
+        }
+        .container {
+            max-width: 800px;
+            margin: 38px auto 38px auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 6px 28px rgba(80,80,120,0.13);
+            padding: 38px 32px;
+        }
+        .container h2 {
+            color: #223A5E;
+            margin-top: 0;
+            font-size: 2em;
+        }
+        .container p {
+            font-size: 1.2em;
+            color: #223A5E;
+        }
+        .btn-main {
+            display: inline-block;
+            padding: 10px 28px;
+            background: #FF8906;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 1.1em;
+            margin-top: 20px;
+            transition: background 0.2s, color 0.2s;
+        }
+        .btn-main:hover {
+            background: #223A5E;
+            color: #FF8906;
+        }
+        footer {
+            text-align: center;
+            padding: 28px 0 14px 0;
+            color: #223A5E;
+            font-size: 1em;
+            background: #f6f6f6;
+            margin-top: 42px;
+            border-top: 1.5px solid #FF8906;
+        }
+        @media (max-width:600px) {
+            .container {
+                padding: 18px 8px;
+            }
+            nav a {
+                font-size: 1em;
+                margin: 0 9px;
+            }
+            header h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>کاتالوگ محصولات PPB</h1>
+    </header>
+    <nav>
+        <a href="#">خانه</a>
+        <a href="#">محصولات</a>
+        <a href="#">درباره ما</a>
+        <a href="#">تماس با ما</a>
+    </nav>
+    <div class="container">
+        <h2>به سایت رسمی کاتالوگ PPB خوش آمدید!</h2>
+        <p>
+            این سایت با رنگ‌بندی آبی نفتی و نارنجی ساخته شده است.<br>
+            در اینجا می‌توانید محصولات ما را مشاهده کنید و با ما در ارتباط باشید.
+        </p>
+        <a class="btn-main" href="#">مشاهده محصولات</a>
+    </div>
+    <footer>
+        © 2025 PPB | طراحی و اجرا با GitHub Pages
+    </footer>
+</body>
+</html>
